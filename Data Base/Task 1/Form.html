@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+<title>Form to fill</title>
+</head>
+
+<body>
+<form action="insert.php" method="post" required>
+
+First Name:
+<input type="text" name="fname" pattern="[A-Za-z]{3,50}" required>
+</br>
+
+Last Name:
+<input type="text" name="lname" pattern="[A-Za-z]{3,50}" required>
+</br>
+
+Age:
+<input type="Number" name="age" min=18 max=100 required>
+</br>
+
+</br>
+Password:
+<input type="password" name="pass"><br/>
+
+<input type="submit" name="Submit">
+
+</form>
+
+</body>
+</html>
